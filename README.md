@@ -1,7 +1,6 @@
 # Project Title
 
-PrivML: Towards Practical Privacy Preserving Machine Learning 
-Software prototype of our submilssion to ICDCS 2022
+PrivML: Towards Practical Privacy Preserving Machine Learning -Software prototype of our submilssion to ICDCS 2022-
 
 ## Description
 
