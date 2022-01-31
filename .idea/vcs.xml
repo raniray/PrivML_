@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GitSharedSettings">
+    <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
+      <list />
+    </option>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LIB/helib/HElib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LIB/helib/HElib/dependencies/Build/helib_external/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LIB/helib/HElib/src/googletest-src" vcs="Git" />
+  </component>
+</project>

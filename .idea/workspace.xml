@@ -1,0 +1,2357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="DAPPLE" targetName="DAPPLE" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2624f523-8bdb-4867-a32b-0c8fa25f5cda" name="Default" comment="non-privacy presrerving neural networks (finished code, started debug)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONFIG/DAPPLE.config" beforeDir="false" afterPath="$PROJECT_DIR$/CONFIG/DAPPLE.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_1.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_1.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_10.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_10.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_11.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_11.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_12.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_12.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_13.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_13.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_14.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_14.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_15.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_15.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_16.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_16.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_2.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_2.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_3.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_3.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_4.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_4.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_5.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_5.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_6.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_6.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_7.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_7.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_8.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_8.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_9.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/DO_9.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Datasets/Adult/testing.enc" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Datasets/Adult/testing.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/IO/DatasetReader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ML/IO/DatasetReader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/IO/DatasetReader.h" beforeDir="false" afterPath="$PROJECT_DIR$/ML/IO/DatasetReader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/NN/NN.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ML/NN/NN.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/NN/neuron.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ML/NN/neuron.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/NN/neuron.h" beforeDir="false" afterPath="$PROJECT_DIR$/ML/NN/neuron.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPML/PPLR2/PPLR_Classifier.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPML/PPLR2/PPLR_Classifier.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPML/PPNN/PPNN_Classifier.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PPML/PPNN/PPNN_Classifier.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPML/PPNN/PPNN_Classifier.h" beforeDir="false" afterPath="$PROJECT_DIR$/PPML/PPNN/PPNN_Classifier.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPML/PPNN/Perceptron.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PPML/PPNN/Perceptron.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPML/PPNN/Perceptron.h" beforeDir="false" afterPath="$PROJECT_DIR$/PPML/PPNN/Perceptron.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DAPPLE.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DAPPLE.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DAPPLE.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="DAPPLE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML/NN/neuron.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="79" selection-start-line="79" selection-end-line="79" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML/NN/neuron.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#88#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TEST/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="1369" column="46" selection-start-line="1369" selection-start-column="46" selection-end-line="1369" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML/NN/NN.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="256" column="13" selection-start-line="256" selection-start-column="13" selection-end-line="256" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML/IO/DatasetReader.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML/IO/DatasetReader.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CONFIG/DAPPLE.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXP/MANU/neuralnets-2021-12-20-13:01:12-Stats.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EXP/MANU/neuralnets-2021-12-20-13:01:12-ClassOutput.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2085">
+              <caret line="139" column="1" lean-forward="true" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fastmul</find>
+      <find>shuff</find>
+      <find>opti</find>
+      <find>des</find>
+      <find>PPLR</find>
+      <find>datasetReader</find>
+      <find>lr</find>
+      <find>PPDa</find>
+      <find>update</find>
+      <find>prod</find>
+      <find>W after update</find>
+      <find>Sdec</find>
+      <find>no</find>
+      <find>after</find>
+      <find>Sigmoid</find>
+      <find>sigmoid</find>
+      <find>&lt;</find>
+      <find>_Classifier</find>
+      <find>logf</find>
+      <find>Perce</find>
+      <find>PPStats</find>
+      <find>predict</find>
+      <find>nb</find>
+      <find>miniBatchGrad</find>
+      <find>LR</find>
+      <find>train</find>
+      <find>todo</find>
+      <find>PPML</find>
+      <find>nn</find>
+      <find>There</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>EvalCmp100</replace>
+      <replace>//cout</replace>
+      <replace>Log</replace>
+      <replace>//COUT</replace>
+      <replace>100+</replace>
+      <replace>1+</replace>
+      <replace>time</replace>
+      <replace>0.0</replace>
+      <replace>Time</replace>
+      <replace>PPNN</replace>
+      <replace>Perceptron</replace>
+      <replace>neuron</replace>
+      <replace>NN</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Rania raniray &lt;dr_talbi@esi.dz&gt;" />
+        <option value="raniray" />
+        <option value="Rania Talbi" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DATA/Datasets/Adult/FULL/adult_45222_15.csv" />
+        <option value="$PROJECT_DIR$/DATA/Datasets/Autism/training.data" />
+        <option value="$PROJECT_DIR$/DATA/Datasets/Spam/Data-brute.txt" />
+        <option value="$PROJECT_DIR$/DATA/Datasets/Spam/Split_Train_Test.py" />
+        <option value="$PROJECT_DIR$/DATA/Datasets/Spam/Clean_Spam.py" />
+        <option value="$PROJECT_DIR$/ML/LR/LR.h" />
+        <option value="$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp" />
+        <option value="$PROJECT_DIR$/ML/LR/LR.cpp" />
+        <option value="$PROJECT_DIR$/DSN2020/ParaDebug-2020-11-17-01:16:16-Config.txt" />
+        <option value="$PROJECT_DIR$/DSN2020/EdinTuning-2020-11-16-18:05:06-Stats.csv" />
+        <option value="$PROJECT_DIR$/DSN2020/_lr-iris-bdw-2020-12-01-10:24:58-Stats.csv" />
+        <option value="$PROJECT_DIR$/DSN2020/nb-nursery-bdw-2020-12-01-10:34:56-Stats.csv" />
+        <option value="$PROJECT_DIR$/EXP/TESTS/testingNB-2019-05-05-13:35:08-Stats.csv" />
+        <option value="$PROJECT_DIR$/EXP/TESTS/cmpCiphermed-2019-05-13-00:04:05-Stats.csv" />
+        <option value="$PROJECT_DIR$/LIB/helib/HElib/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/LIB/helib/HElib/include/helib/Ctxt.h" />
+        <option value="$PROJECT_DIR$/LIB/helib/HElib/examples/BGV_packed_arithmetic/BGV_packed_arithmetic.cpp" />
+        <option value="$PROJECT_DIR$/TEST/TESTBuildingBlocks.cpp" />
+        <option value="$PROJECT_DIR$/TEST/TESTBuildingBlocks.h" />
+        <option value="$PROJECT_DIR$/CRYPTO/DTPKC.h" />
+        <option value="$PROJECT_DIR$/UTIL/math_util.hh" />
+        <option value="$PROJECT_DIR$/UTIL/math_util.cc" />
+        <option value="$PROJECT_DIR$/TEST/TESTElementaryOps.cpp" />
+        <option value="$PROJECT_DIR$/DATA/Datasets/Nursery/FULL/DO_16.data" />
+        <option value="$PROJECT_DIR$/CONFIG/DAPPLE_VFDT_Bank.config" />
+        <option value="$PROJECT_DIR$/CONFIG/DAPPLE_VFDT_Nursery.config" />
+        <option value="$PROJECT_DIR$/CONFIG/1.config" />
+        <option value="$PROJECT_DIR$/EXP/DebugNb/Bank-Cipher-debug-time-2019-07-14-14:21:54-Config.txt" />
+        <option value="$PROJECT_DIR$/EXP/Tuning/_NurseryVFDT-2020-01-23-15:38:20-Config.txt" />
+        <option value="$PROJECT_DIR$/EXP/MANU/nnnn-2021-12-02-23:29:21-Stats.csv" />
+        <option value="$PROJECT_DIR$/CRYPTO/DTPKC.cpp" />
+        <option value="$PROJECT_DIR$/PPML/PPLR2/PPLR_Classifier.h" />
+        <option value="$PROJECT_DIR$/PPML/IO/PPDatasetReader.h" />
+        <option value="$PROJECT_DIR$/PPML/PPLR2/PPLR_Classifier.cpp" />
+        <option value="$PROJECT_DIR$/CRYPTO/EvalLrUpdate.cpp" />
+        <option value="$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp" />
+        <option value="$PROJECT_DIR$/CRYPTO/EvalSigmoid.cpp" />
+        <option value="$PROJECT_DIR$/PPML/PPLR/PPLR_Classifier.cpp" />
+        <option value="$PROJECT_DIR$/ML/NN/NN.h" />
+        <option value="$PROJECT_DIR$/PPML/PPNN/PPNN_Classifier.h" />
+        <option value="$PROJECT_DIR$/PPML/PPNN/PPNN_Classifier.cpp" />
+        <option value="$PROJECT_DIR$/PPML/PPNN/Perceptron.h" />
+        <option value="$PROJECT_DIR$/PPML/PPNN/Perceptron.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ML/NN/neuron.cpp" />
+        <option value="$PROJECT_DIR$/ML/NN/neuron.h" />
+        <option value="$PROJECT_DIR$/ML/IO/DatasetReader.h" />
+        <option value="$PROJECT_DIR$/ML/IO/DatasetReader.cpp" />
+        <option value="$PROJECT_DIR$/TEST/main.cpp" />
+        <option value="$PROJECT_DIR$/ML/NN/NN.cpp" />
+        <option value="$PROJECT_DIR$/CONFIG/DAPPLE.config" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="213" />
+    <option name="y" value="-2" />
+    <option name="width" value="427" />
+    <option name="height" value="482" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DAPPLE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAPPLE-2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAPPLE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAPPLE-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="CONFIG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAPPLE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAPPLE-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="DATA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAPPLE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAPPLE-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="EXP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAPPLE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAPPLE-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="EXP" type="462c0819:PsiDirectoryNode" />
+              <item name="MANU" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAPPLE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAPPLE-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAPPLE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAPPLE-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="IO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAPPLE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAPPLE-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="LR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAPPLE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAPPLE-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="NN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAPPLE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAPPLE-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="PPML" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/rania/CLionProjects/DAPPLE/CRYPTO/EvalSqrt.h" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DATA/Datasets" />
+      <recent name="$PROJECT_DIR$/EXP/Tuning/Archived" />
+      <recent name="$PROJECT_DIR$/DATA/Datasets/Adult" />
+      <recent name="$PROJECT_DIR$/ML/IO" />
+      <recent name="$PROJECT_DIR$/ML" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ML/NN" />
+      <recent name="$PROJECT_DIR$/PPML/PPNN" />
+      <recent name="$PROJECT_DIR$/PPML/PPLR2" />
+      <recent name="$PROJECT_DIR$/PPML" />
+      <recent name="$PROJECT_DIR$/CONFIG" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DAPPLE" RUN_TARGET_NAME="DAPPLE" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DAPPLE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DAPPLE" TARGET_NAME="DAPPLE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DAPPLE" RUN_TARGET_NAME="DAPPLE">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.DAPPLE" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2624f523-8bdb-4867-a32b-0c8fa25f5cda" name="Default" comment="" />
+      <created>1540917707351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540917707351</updated>
+      <workItem from="1540917708872" duration="6099000" />
+      <workItem from="1540974597949" duration="2388000" />
+      <workItem from="1540977064921" duration="10551000" />
+      <workItem from="1540994518559" duration="12333000" />
+      <workItem from="1541147491973" duration="56818000" />
+      <workItem from="1541697356693" duration="1990000" />
+      <workItem from="1542104557561" duration="6173000" />
+      <workItem from="1542123133854" duration="22073000" />
+      <workItem from="1542212396841" duration="39169000" />
+      <workItem from="1542616036893" duration="162560000" />
+      <workItem from="1543568463726" duration="1281000" />
+      <workItem from="1543571440920" duration="411000" />
+      <workItem from="1543573666263" duration="1123000" />
+      <workItem from="1546361292436" duration="70468000" />
+      <workItem from="1547120913083" duration="19373000" />
+      <workItem from="1547151164472" duration="13161000" />
+      <workItem from="1547197610766" duration="20435000" />
+      <workItem from="1552400237141" duration="57900000" />
+      <workItem from="1552502682357" duration="5303000" />
+      <workItem from="1552508164264" duration="7270000" />
+      <workItem from="1552518425533" duration="2059000" />
+      <workItem from="1552736734689" duration="5788000" />
+      <workItem from="1552743824599" duration="5006000" />
+      <workItem from="1552749049728" duration="4369000" />
+      <workItem from="1552753575765" duration="10686000" />
+      <workItem from="1552824282700" duration="1937000" />
+      <workItem from="1552826748654" duration="138000" />
+      <workItem from="1552830128139" duration="51938000" />
+      <workItem from="1552922298234" duration="4814000" />
+      <workItem from="1552931493084" duration="5145000" />
+      <workItem from="1552994541482" duration="9723000" />
+      <workItem from="1553007955339" duration="1591000" />
+      <workItem from="1553268525251" duration="9231000" />
+      <workItem from="1553279718999" duration="2587000" />
+      <workItem from="1553532738694" duration="2640000" />
+      <workItem from="1553555726404" duration="2609000" />
+      <workItem from="1553591361409" duration="14332000" />
+      <workItem from="1553676823720" duration="36106000" />
+      <workItem from="1554383548410" duration="16642000" />
+      <workItem from="1554464277043" duration="13193000" />
+      <workItem from="1554794662948" duration="1201000" />
+      <workItem from="1554894851081" duration="14949000" />
+      <workItem from="1554980604962" duration="31618000" />
+      <workItem from="1555104532157" duration="2946000" />
+      <workItem from="1555319699043" duration="18936000" />
+      <workItem from="1555420492797" duration="9561000" />
+      <workItem from="1556117036167" duration="16345000" />
+      <workItem from="1556985163497" duration="8721000" />
+      <workItem from="1556999883524" duration="37306000" />
+      <workItem from="1557400655578" duration="44505000" />
+      <workItem from="1561363219181" duration="18246000" />
+      <workItem from="1561469137579" duration="25212000" />
+      <workItem from="1561625326809" duration="51938000" />
+      <workItem from="1562142635773" duration="26341000" />
+      <workItem from="1562658688930" duration="683000" />
+      <workItem from="1563111760311" duration="12587000" />
+      <workItem from="1568013599648" duration="246000" />
+      <workItem from="1577402904705" duration="8748000" />
+      <workItem from="1577552973318" duration="2692000" />
+      <workItem from="1577566516419" duration="6843000" />
+      <workItem from="1577718521115" duration="14738000" />
+      <workItem from="1578301835088" duration="3493000" />
+      <workItem from="1578399487282" duration="409000" />
+      <workItem from="1578400995489" duration="2901000" />
+      <workItem from="1578409400958" duration="17369000" />
+      <workItem from="1578490199097" duration="52805000" />
+      <workItem from="1579510466382" duration="15110000" />
+      <workItem from="1579596546931" duration="12503000" />
+      <workItem from="1579687298370" duration="11565000" />
+      <workItem from="1579704162533" duration="4384000" />
+      <workItem from="1579733182270" duration="5798000" />
+      <workItem from="1579786820041" duration="13624000" />
+      <workItem from="1579862666687" duration="6374000" />
+      <workItem from="1580057064576" duration="36196000" />
+      <workItem from="1580398557379" duration="498000" />
+      <workItem from="1580399258653" duration="8076000" />
+      <workItem from="1580724594956" duration="9178000" />
+      <workItem from="1580909536765" duration="5901000" />
+      <workItem from="1581581919697" duration="4441000" />
+      <workItem from="1582721479106" duration="28227000" />
+      <workItem from="1583169882045" duration="75000" />
+      <workItem from="1583169995289" duration="32772000" />
+      <workItem from="1584006697197" duration="6982000" />
+      <workItem from="1584097774650" duration="12858000" />
+      <workItem from="1584954113945" duration="2050000" />
+      <workItem from="1605486218923" duration="4870000" />
+      <workItem from="1605520239703" duration="24084000" />
+      <workItem from="1605710873488" duration="5033000" />
+      <workItem from="1605746986786" duration="2927000" />
+      <workItem from="1606043419075" duration="2320000" />
+      <workItem from="1606086143423" duration="580000" />
+      <workItem from="1606122880924" duration="1192000" />
+      <workItem from="1606817041991" duration="12117000" />
+      <workItem from="1606934002836" duration="15786000" />
+      <workItem from="1607311791427" duration="205000" />
+      <workItem from="1607312826538" duration="2733000" />
+      <workItem from="1613599933641" duration="3413000" />
+      <workItem from="1631024915961" duration="6438000" />
+      <workItem from="1631320935146" duration="43534000" />
+      <workItem from="1631963023588" duration="9689000" />
+      <workItem from="1632009502288" duration="4198000" />
+      <workItem from="1632040561008" duration="14359000" />
+      <workItem from="1632091077710" duration="5546000" />
+      <workItem from="1632186111209" duration="10585000" />
+      <workItem from="1638471887342" duration="640000" />
+      <workItem from="1638474949261" duration="12914000" />
+      <workItem from="1639473801827" duration="5981000" />
+      <workItem from="1639490787929" duration="17710000" />
+      <workItem from="1639730650637" duration="19492000" />
+      <workItem from="1639957004094" duration="8409000" />
+    </task>
+    <task id="LOCAL-00065" summary="Updated parallelism in PVFDT">
+      <created>1556980879631</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1556980879631</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Added a new dataset to compare with state of the art">
+      <created>1557006929104</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1557006929106</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Added the iris dataset and updated the naive bayes classifier">
+      <created>1557026773437</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1557026773438</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Added the iris dataset and updated the naive bayes classifier">
+      <created>1557027877923</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1557027877923</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Updated code for Naive Bayes classifier">
+      <created>1557063356485</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1557063356486</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Added eval print for the naive bayes classifier in the case of non-incremental  scenario">
+      <created>1557081446555</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1557081446555</updated>
+    </task>
+    <task id="LOCAL-00071" summary="New dataset config PLR">
+      <created>1557794782265</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1557794782273</updated>
+    </task>
+    <task id="LOCAL-00072" summary="New dataset config PLR">
+      <created>1557795376149</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1557795376149</updated>
+    </task>
+    <task id="LOCAL-00073" summary="New dataset config PLR">
+      <created>1557795409480</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1557795409480</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Small new updates for tests">
+      <created>1561852238562</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1561852238567</updated>
+    </task>
+    <task id="LOCAL-00075" summary="New dataset config PLR">
+      <created>1561902121769</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1561902121770</updated>
+    </task>
+    <task id="LOCAL-00076" summary="New dataset config PLR">
+      <created>1561911834774</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1561911834775</updated>
+    </task>
+    <task id="LOCAL-00077" summary="BANK2">
+      <created>1561929841962</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1561929841968</updated>
+    </task>
+    <task id="LOCAL-00078" summary="corrected the naive bayes implem">
+      <created>1562314458539</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1562314458539</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Packing tests">
+      <created>1577751375604</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1577751375607</updated>
+    </task>
+    <task id="LOCAL-00080" summary="New tests for the S&amp;P paper">
+      <created>1578302130521</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1578302130522</updated>
+    </task>
+    <task id="LOCAL-00081" summary="New tests for the S&amp;P paper">
+      <created>1578416928866</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1578416928868</updated>
+    </task>
+    <task id="LOCAL-00082" summary="New tests for the S&amp;P paper">
+      <created>1578563823408</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1578563823409</updated>
+    </task>
+    <task id="LOCAL-00083" summary="New tests for the S&amp;P paper">
+      <created>1578589246281</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1578589246281</updated>
+    </task>
+    <task id="LOCAL-00084" summary="New tests for the S&amp;P paper">
+      <created>1578661340216</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1578661340216</updated>
+    </task>
+    <task id="LOCAL-00085" summary="New tests for the S&amp;P paper">
+      <created>1578848478692</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1578848478692</updated>
+    </task>
+    <task id="LOCAL-00086" summary="New tests for the S&amp;P paper">
+      <created>1579538329823</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1579538329823</updated>
+    </task>
+    <task id="LOCAL-00087" summary="New tests for the S&amp;P paper">
+      <created>1579617836597</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1579617836597</updated>
+    </task>
+    <task id="LOCAL-00088" summary="New tests for the S&amp;P paper">
+      <created>1579701349750</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1579701349751</updated>
+    </task>
+    <task id="LOCAL-00089" summary="New tests for the S&amp;P paper">
+      <created>1579796038635</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1579796038635</updated>
+    </task>
+    <task id="LOCAL-00090" summary="New tests for the S&amp;P paper">
+      <created>1579883093305</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1579883093307</updated>
+    </task>
+    <task id="LOCAL-00091" summary="New tests for the S&amp;P paper">
+      <created>1580292600786</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1580292600787</updated>
+    </task>
+    <task id="LOCAL-00092" summary="New tests for the S&amp;P paper">
+      <created>1580395274656</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1580395274656</updated>
+    </task>
+    <task id="LOCAL-00093" summary="New tests for the S&amp;P paper">
+      <created>1580905463900</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1580905463900</updated>
+    </task>
+    <task id="LOCAL-00094" summary="New tests for the S&amp;P paper">
+      <created>1580907185209</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1580907185209</updated>
+    </task>
+    <task id="LOCAL-00095" summary="micro bench">
+      <created>1583369465288</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1583369465288</updated>
+    </task>
+    <task id="LOCAL-00096" summary="micro bench vfdt">
+      <created>1583419274531</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1583419274531</updated>
+    </task>
+    <task id="LOCAL-00097" summary="micro bench vfdt">
+      <created>1583424493296</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1583424493297</updated>
+    </task>
+    <task id="LOCAL-00098" summary="micro bench lr">
+      <created>1583428556502</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1583428556502</updated>
+    </task>
+    <task id="LOCAL-00099" summary="updates for microBench">
+      <created>1584021013947</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1584021013947</updated>
+    </task>
+    <task id="LOCAL-00100" summary="updates for microBench">
+      <created>1584111328552</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1584111328553</updated>
+    </task>
+    <task id="LOCAL-00101" summary="updates for microBench">
+      <created>1584352180251</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1584352180251</updated>
+    </task>
+    <task id="LOCAL-00102" summary="updates for microBench">
+      <created>1631050222333</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1631050222337</updated>
+    </task>
+    <task id="LOCAL-00103" summary="New optim  + large datasets modif">
+      <created>1632014242942</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1632014242942</updated>
+    </task>
+    <task id="LOCAL-00104" summary="New optim  + large datasets modif">
+      <created>1632074374313</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1632074374314</updated>
+    </task>
+    <task id="LOCAL-00105" summary="New optim  + large datasets modif">
+      <created>1632076599043</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1632076599043</updated>
+    </task>
+    <task id="LOCAL-00106" summary="New optim  + large datasets modif">
+      <created>1632096927160</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1632096927166</updated>
+    </task>
+    <task id="LOCAL-00107" summary="New optim  + large datasets modif">
+      <created>1632101698739</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1632101698740</updated>
+    </task>
+    <task id="LOCAL-00108" summary="New optim  + large datasets modif">
+      <created>1632192581015</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1632192581016</updated>
+    </task>
+    <task id="LOCAL-00109" summary="New optim  + large datasets modif">
+      <created>1638488575676</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1638488575676</updated>
+    </task>
+    <task id="LOCAL-00110" summary="PPNN + modif logistic regression">
+      <created>1639607466722</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1639607466723</updated>
+    </task>
+    <task id="LOCAL-00111" summary="non-privacy presrerving neural networks">
+      <created>1639741483456</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1639741483456</updated>
+    </task>
+    <task id="LOCAL-00112" summary="non-privacy presrerving neural networks">
+      <created>1639961074706</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1639961074706</updated>
+    </task>
+    <task id="LOCAL-00113" summary="non-privacy presrerving neural networks (finished code, started debug)">
+      <created>1640001291125</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1640001291125</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1614208000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="856" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8053333" visible="true" weight="0.30576307" />
+      <window_info id="Structure" order="1" sideWeight="0.2735043" side_tool="true" weight="0.3390558" />
+      <window_info id="Favorites" order="2" sideWeight="0.19466667" side_tool="true" weight="0.28113064" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49363586" visible="true" weight="0.32478634" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6303265" visible="true" weight="0.24786325" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.5146652" weight="0.47863248" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4986165" weight="0.32663316" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.43054786" weight="0.46866098" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4853348" side_tool="true" weight="0.5325048" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.50359714" weight="0.20786516" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4864416" weight="0.3190883" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.7094632" weight="0.36324787" />
+      <window_info anchor="bottom" id="ExcelReader" order="13" weight="0.32914573" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" side_tool="true" weight="0.2171825" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Added the call to the PPLR classifier" />
+    <MESSAGE value="Updated version of PPLR with para" />
+    <MESSAGE value="Working version of logistic regression" />
+    <MESSAGE value="Working version of logistic regression + Added testing scripts" />
+    <MESSAGE value="updated testing script for PPLR" />
+    <MESSAGE value="Added the bank dataset files" />
+    <MESSAGE value="Updated parallelism in PVFDT" />
+    <MESSAGE value="Added a new dataset to compare with state of the art" />
+    <MESSAGE value="Added the iris dataset and updated the naive bayes classifier" />
+    <MESSAGE value="Updated code for Naive Bayes classifier" />
+    <MESSAGE value="Added eval print for the naive bayes classifier in the case of non-incremental  scenario" />
+    <MESSAGE value="Small new updates for tests" />
+    <MESSAGE value="New dataset config PLR" />
+    <MESSAGE value="BANK2" />
+    <MESSAGE value="corrected the naive bayes implem" />
+    <MESSAGE value="Packing tests" />
+    <MESSAGE value="New tests for the S&amp;P paper" />
+    <MESSAGE value="micro bench" />
+    <MESSAGE value="micro bench vfdt" />
+    <MESSAGE value="micro bench lr" />
+    <MESSAGE value="updates for microBench" />
+    <MESSAGE value="New optim  + large datasets modif" />
+    <MESSAGE value="PPNN + modif logistic regression" />
+    <MESSAGE value="non-privacy presrerving neural networks" />
+    <MESSAGE value="non-privacy presrerving neural networks (finished code, started debug)" />
+    <option name="LAST_COMMIT_MESSAGE" value="non-privacy presrerving neural networks (finished code, started debug)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>475</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>480</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>473</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp</url>
+          <line>363</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp</url>
+          <line>359</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp</url>
+          <line>259</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp</url>
+          <line>263</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp</url>
+          <line>301</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp</url>
+          <line>307</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp</url>
+          <line>350</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp</url>
+          <line>374</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp</url>
+          <line>368</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>82</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>83</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>89</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>90</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>97</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>98</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>105</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>106</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>108</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>109</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>110</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>112</line>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>114</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>113</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>116</line>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>117</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <line>118</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CRYPTO/EvalProba.cpp</url>
+          <line>69</line>
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CRYPTO/EvalProba.cpp</url>
+          <line>75</line>
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPNB/PPStats.cpp</url>
+          <line>134</line>
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPNB/PPStats.cpp</url>
+          <line>189</line>
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.cpp</url>
+          <option name="timeStamp" value="614" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTCryptoDatasetReader.h</url>
+          <line>4</line>
+          <option name="timeStamp" value="615" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTppVFDT.cpp</url>
+          <line>62</line>
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/main.cpp</url>
+          <line>1250</line>
+          <option name="timeStamp" value="699" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/IO/DatasetReader.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="705" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>231</line>
+          <option name="timeStamp" value="715" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>284</line>
+          <option name="timeStamp" value="716" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>360</line>
+          <option name="timeStamp" value="751" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>366</line>
+          <option name="timeStamp" value="753" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>367</line>
+          <option name="timeStamp" value="754" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>378</line>
+          <option name="timeStamp" value="770" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>379</line>
+          <option name="timeStamp" value="771" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>398</line>
+          <option name="timeStamp" value="772" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>413</line>
+          <option name="timeStamp" value="773" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>784</line>
+          <option name="timeStamp" value="775" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPNode.cpp</url>
+          <line>194</line>
+          <option name="timeStamp" value="776" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPNode.cpp</url>
+          <line>195</line>
+          <option name="timeStamp" value="777" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPNode.cpp</url>
+          <line>196</line>
+          <option name="timeStamp" value="778" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPNode.cpp</url>
+          <line>207</line>
+          <option name="timeStamp" value="779" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPNode.cpp</url>
+          <line>208</line>
+          <option name="timeStamp" value="780" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPNode.cpp</url>
+          <line>209</line>
+          <option name="timeStamp" value="781" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPNode.cpp</url>
+          <line>197</line>
+          <option name="timeStamp" value="782" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPNode.cpp</url>
+          <line>201</line>
+          <option name="timeStamp" value="783" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>529</line>
+          <option name="timeStamp" value="784" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>526</line>
+          <option name="timeStamp" value="785" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>527</line>
+          <option name="timeStamp" value="786" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>566</line>
+          <option name="timeStamp" value="787" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>567</line>
+          <option name="timeStamp" value="788" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>568</line>
+          <option name="timeStamp" value="789" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>569</line>
+          <option name="timeStamp" value="790" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/main.cpp</url>
+          <line>104</line>
+          <option name="timeStamp" value="791" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>222</line>
+          <option name="timeStamp" value="806" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>429</line>
+          <option name="timeStamp" value="823" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>430</line>
+          <option name="timeStamp" value="825" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>431</line>
+          <option name="timeStamp" value="826" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>441</line>
+          <option name="timeStamp" value="827" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>263</line>
+          <option name="timeStamp" value="828" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>169</line>
+          <option name="timeStamp" value="830" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>493</line>
+          <option name="timeStamp" value="831" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>494</line>
+          <option name="timeStamp" value="832" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>497</line>
+          <option name="timeStamp" value="833" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/NB/Stats.cpp</url>
+          <line>165</line>
+          <option name="timeStamp" value="853" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/NB/Stats.cpp</url>
+          <line>143</line>
+          <option name="timeStamp" value="856" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/NB/Stats.cpp</url>
+          <line>146</line>
+          <option name="timeStamp" value="857" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/NB/Stats.cpp</url>
+          <line>160</line>
+          <option name="timeStamp" value="859" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/NB/Stats.cpp</url>
+          <line>162</line>
+          <option name="timeStamp" value="860" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/NB/Stats.cpp</url>
+          <line>167</line>
+          <option name="timeStamp" value="862" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPNB/PPStats.cpp</url>
+          <line>129</line>
+          <option name="timeStamp" value="868" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPNB/PPStats.cpp</url>
+          <line>174</line>
+          <option name="timeStamp" value="870" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPLR/PPLR_Classifier.cpp</url>
+          <line>147</line>
+          <option name="timeStamp" value="897" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPLR/PPLR_Classifier.cpp</url>
+          <line>380</line>
+          <option name="timeStamp" value="920" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPLR/PPLR_Classifier.cpp</url>
+          <line>429</line>
+          <option name="timeStamp" value="925" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPLR/PPLR_Classifier.cpp</url>
+          <line>383</line>
+          <option name="timeStamp" value="926" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/LR/LR.cpp</url>
+          <line>276</line>
+          <option name="timeStamp" value="927" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/LR/LR.cpp</url>
+          <line>355</line>
+          <option name="timeStamp" value="928" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/LR/LR.cpp</url>
+          <line>279</line>
+          <option name="timeStamp" value="929" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/LR/LR.cpp</url>
+          <line>286</line>
+          <option name="timeStamp" value="930" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPLR/PPLR_Classifier.cpp</url>
+          <line>340</line>
+          <option name="timeStamp" value="935" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CRYPTO/EvalDotProd.cpp</url>
+          <line>91</line>
+          <option name="timeStamp" value="937" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CRYPTO/EvalDotProd.cpp</url>
+          <line>94</line>
+          <option name="timeStamp" value="938" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPLR/PPLR_Classifier.cpp</url>
+          <line>342</line>
+          <option name="timeStamp" value="940" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/main.cpp</url>
+          <line>1135</line>
+          <option name="timeStamp" value="942" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/NB/NB_Classifier.cpp</url>
+          <line>96</line>
+          <option name="timeStamp" value="944" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/main.cpp</url>
+          <line>1163</line>
+          <option name="timeStamp" value="945" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/main.cpp</url>
+          <line>1165</line>
+          <option name="timeStamp" value="946" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/NB/Stats.cpp</url>
+          <line>172</line>
+          <option name="timeStamp" value="976" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPNB/PPNB_Classifier.cpp</url>
+          <line>177</line>
+          <option name="timeStamp" value="977" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPNB/PPNB_Classifier.cpp</url>
+          <line>185</line>
+          <option name="timeStamp" value="978" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPNB/PPNB_Classifier.cpp</url>
+          <line>178</line>
+          <option name="timeStamp" value="979" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPLR/PPLR_Classifier.cpp</url>
+          <line>462</line>
+          <option name="timeStamp" value="997" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ML/VFDT/VFDT_Classifier.cpp</url>
+          <line>336</line>
+          <option name="timeStamp" value="1010" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPNB/PPStats.cpp</url>
+          <line>46</line>
+          <option name="timeStamp" value="1011" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPNB/PPStats.cpp</url>
+          <line>47</line>
+          <option name="timeStamp" value="1012" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPNB/PPStats.cpp</url>
+          <line>60</line>
+          <option name="timeStamp" value="1013" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTBuildingBlocks.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="1015" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTBuildingBlocks.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="1016" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTBuildingBlocks.cpp</url>
+          <line>725</line>
+          <option name="timeStamp" value="1019" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTBuildingBlocks.cpp</url>
+          <line>726</line>
+          <option name="timeStamp" value="1020" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>134</line>
+          <option name="timeStamp" value="1023" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/PPVFDT/PPVFDT_Classifier.cpp</url>
+          <line>718</line>
+          <option name="timeStamp" value="1024" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTElementaryOps.cpp</url>
+          <line>214</line>
+          <option name="timeStamp" value="1025" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LIB/helib/HElib/include/helib/Ctxt.h</url>
+          <line>206</line>
+          <option name="timeStamp" value="1027" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTBuildingBlocks.cpp</url>
+          <line>343</line>
+          <option name="timeStamp" value="1028" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>313</line>
+          <option name="timeStamp" value="1036" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>312</line>
+          <option name="timeStamp" value="1037" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>324</line>
+          <option name="timeStamp" value="1039" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>325</line>
+          <option name="timeStamp" value="1040" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>334</line>
+          <option name="timeStamp" value="1041" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>333</line>
+          <option name="timeStamp" value="1053" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>339</line>
+          <option name="timeStamp" value="1054" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>347</line>
+          <option name="timeStamp" value="1055" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>603</line>
+          <option name="timeStamp" value="1059" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>733</line>
+          <option name="timeStamp" value="1060" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>727</line>
+          <option name="timeStamp" value="1061" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>508</line>
+          <option name="timeStamp" value="1062" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>534</line>
+          <option name="timeStamp" value="1064" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>551</line>
+          <option name="timeStamp" value="1066" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>550</line>
+          <option name="timeStamp" value="1067" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>548</line>
+          <option name="timeStamp" value="1068" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>547</line>
+          <option name="timeStamp" value="1069" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>553</line>
+          <option name="timeStamp" value="1070" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>556</line>
+          <option name="timeStamp" value="1071" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>567</line>
+          <option name="timeStamp" value="1074" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>572</line>
+          <option name="timeStamp" value="1076" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>585</line>
+          <option name="timeStamp" value="1077" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>593</line>
+          <option name="timeStamp" value="1078" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>594</line>
+          <option name="timeStamp" value="1079" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>598</line>
+          <option name="timeStamp" value="1080" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>600</line>
+          <option name="timeStamp" value="1081" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>608</line>
+          <option name="timeStamp" value="1082" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>609</line>
+          <option name="timeStamp" value="1083" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>613</line>
+          <option name="timeStamp" value="1084" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>619</line>
+          <option name="timeStamp" value="1085" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>622</line>
+          <option name="timeStamp" value="1086" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>630</line>
+          <option name="timeStamp" value="1087" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>632</line>
+          <option name="timeStamp" value="1088" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>626</line>
+          <option name="timeStamp" value="1089" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>638</line>
+          <option name="timeStamp" value="1090" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>639</line>
+          <option name="timeStamp" value="1091" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>646</line>
+          <option name="timeStamp" value="1092" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>645</line>
+          <option name="timeStamp" value="1093" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>648</line>
+          <option name="timeStamp" value="1094" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>650</line>
+          <option name="timeStamp" value="1095" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>664</line>
+          <option name="timeStamp" value="1096" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>666</line>
+          <option name="timeStamp" value="1097" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>674</line>
+          <option name="timeStamp" value="1098" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>688</line>
+          <option name="timeStamp" value="1099" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>699</line>
+          <option name="timeStamp" value="1100" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>711</line>
+          <option name="timeStamp" value="1101" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>723</line>
+          <option name="timeStamp" value="1102" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>728</line>
+          <option name="timeStamp" value="1103" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>729</line>
+          <option name="timeStamp" value="1104" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>735</line>
+          <option name="timeStamp" value="1105" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>737</line>
+          <option name="timeStamp" value="1106" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.cc</url>
+          <line>740</line>
+          <option name="timeStamp" value="1107" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTElementaryOps.cpp</url>
+          <line>106</line>
+          <option name="timeStamp" value="1113" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/TESTElementaryOps.cpp</url>
+          <line>108</line>
+          <option name="timeStamp" value="1114" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UTIL/math_util.hh</url>
+          <line>87</line>
+          <option name="timeStamp" value="1115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/main.cpp</url>
+          <line>346</line>
+          <option name="timeStamp" value="1117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TEST/main.cpp</url>
+          <line>348</line>
+          <option name="timeStamp" value="1118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CRYPTO/EvalSigmoid.cpp</url>
+          <line>23</line>
+          <option name="timeStamp" value="1122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CRYPTO/EvalSigmoid.cpp</url>
+          <line>24</line>
+          <option name="timeStamp" value="1123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CRYPTO/DTPKC.cpp</url>
+          <line>199</line>
+          <option name="timeStamp" value="1126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CRYPTO/DTPKC.cpp</url>
+          <line>200</line>
+          <option name="timeStamp" value="1127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CRYPTO/DTPKC.cpp</url>
+          <line>455</line>
+          <option name="timeStamp" value="1128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CRYPTO/DTPKC.cpp</url>
+          <line>458</line>
+          <option name="timeStamp" value="1129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp</url>
+          <line>196</line>
+          <option name="timeStamp" value="1132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DATA/Scripts/Clean_Adult.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="698" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DATA/Scripts/Shuffle_enc.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="885" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DATA/Scripts/Shuffle_enc.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="886" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DATA/Scripts/Shuffle_enc.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="887" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DATA/Scripts/Shuffle_enc.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="889" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="CidrExceptionBreakpoint">
+          <properties />
+        </breakpoint>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="leaf" />
+        <watch expression="leaf-&gt;nodeStats-&gt;classOccurrence[1].second" />
+        <watch expression="this-&gt;Tree-&gt;nodeStats-&gt;sumOfSquares[2].second" />
+        <watch expression="node-&gt;nodeStats-&gt;classOccurrence" />
+        <watch expression="node-&gt;nodeStats-&gt;classOccurrence" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CRYPTO/EvalAddPow2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/nnnn-2021-12-02-21:59:02-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/nnnn-2021-12-02-22:08:40-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/nnnn-2021-12-02-23:29:21-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/nnnn-2021-12-02-23:44:38-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/done-2021-12-03-01:23:40-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRYPTO/EvalDiv.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRYPTO/EvalProba.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRYPTO/EvalDotProd.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRYPTO/EvalDiv100.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/done-2021-12-03-13:56:17-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/PPNN/PPLR_Classifier.h" />
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/done-2021-12-03-13:28:43-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/PPLR2/PPLR_Classifier.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="406" column="29" lean-forward="true" selection-start-line="406" selection-start-column="29" selection-end-line="406" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/PPLR2/PPLR_Classifier.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/IO/PPRecord.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gmpxx.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="1489" selection-start-line="1489" selection-end-line="1489" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONFIG/1.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/IO/PPDatasetReader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="150" column="34" selection-start-line="150" selection-start-column="14" selection-end-line="150" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATA/Datasets/Adult/DO_1.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/done-2021-12-15-15:16:23-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/done-2021-12-15-15:16:23-ClassOutput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5715">
+          <caret line="381" column="1" selection-start-line="381" selection-start-column="1" selection-end-line="381" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRYPTO/EvalLrUpdate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRYPTO/EvalSigmoid.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRYPTO/EvalCmp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRYPTO/DTPKC.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1181">
+          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/done-2021-12-15-19:01:04-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/new-2021-12-15-20:07:59-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRYPTO/DTPKC.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="802" column="9" selection-start-line="802" selection-start-column="9" selection-end-line="802" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/PPLR/PPLR_Classifier.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="98" selection-start-line="51" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/NN/LR.cpp" />
+    <entry file="file://$PROJECT_DIR$/ML/LR/LR.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/PPNB/PPStats.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/NN/NN.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="e#80#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/LR/LR.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="412" column="1" selection-start-line="412" selection-start-column="1" selection-end-line="412" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/PPLR/PPLR_Classifier.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="536" column="13" selection-start-line="536" selection-start-column="13" selection-end-line="536" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/PPNN/PPNN_Classifier.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/PPNN/PPNN_Classifier.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/PPNN/Perceptron.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPML/PPNN/Perceptron.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="197" column="16" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/NN/neuron.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="79" selection-start-line="79" selection-end-line="79" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/NN/neuron.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#88#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/IO/DatasetReader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="1369" column="46" selection-start-line="1369" selection-start-column="46" selection-end-line="1369" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/IO/DatasetReader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/NN/NN.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="256" column="13" selection-start-line="256" selection-start-column="13" selection-end-line="256" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONFIG/DAPPLE.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/neuralnets-2021-12-20-13:01:12-Stats.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXP/MANU/neuralnets-2021-12-20-13:01:12-ClassOutput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="139" column="1" lean-forward="true" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

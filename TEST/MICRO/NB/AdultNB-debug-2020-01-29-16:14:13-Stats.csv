@@ -1,0 +1,3 @@
+--------Run@1 over : 1---------
+TrainTime,TrainBd,TestServerTime,TestClientTime,TestBd,P,R,F1,TrainMU,TrainSU,TrainBdw,TestMU,TestSU,TestBdw
+0.401023,0,0.584792,0.000000,2880,0.000000,0.000000,0.000000,-nan,-nan,0.000000,-nan,-nan,0.000000

@@ -1,0 +1,69 @@
+perf{
+      testBuildingBlocks="false";
+      PrivacyPreservation="true";
+      MLAlgorithm="vfdt";
+      runs_number ="1";
+      thread_number="14";
+      remoteClient="false";
+      Incremental="false";
+      OutputPath="/home/rania/CLionProjects/DAPPLE-2.0/TEST/MICRO/VFDT/";
+      scenarioName ="NurseryVFDTCipher";
+      debug="true";
+      maxTrainSize="20";
+      maxTestSize="50";
+ }
+
+ # The dataset configuration parameters
+ dataset{
+     mainPath = "/home/rania/CLionProjects/DAPPLE-2.0/";
+     path="/home/rania/CLionProjects/DAPPLE-2.0/DATA/Datasets/Nursery/";
+     clearPath= "/home/rania/CLionProjects/DAPPLE-2.0/DATA/Datasets/Nursery/";
+     chunk_prefix="DO";
+     class_number="4";
+     dimension="9";
+     chunk_number="16";
+ }
+
+ # The vfdt algorithm parameters
+ vfdt{
+     delta="0.0000001";
+     tau="1";
+     grace="10";
+     max_depth="10";
+     threshold_number="2";
+     maxNodes="70";
+ }
+
+ # DTPKC parameters
+ crypto{
+     deserialize="false";
+     pathSer="/home/rania/CLionProjects/DAPPLE-2.0/SER/";
+     keySize ="1024";
+     DTPKC_Err = "600";
+     ComputationalPrecision="1000";
+     useORE="false";
+     sendParaClient="true";
+     blindingSize="100";
+     encryptData="true";
+     delay="1";
+ }
+
+ # Naive Bayes parameters
+ nb{
+     LaplaceConstant="1";
+ }
+
+ #LR parameters
+
+ lr{
+    alpha="100";
+    LRTH="0.5";
+    batchSize="100";
+    epochs="1";
+ }
+
+ # Network parameters
+ network{
+     portS="5001";
+     serverIP="10.144.4.7";
+ }

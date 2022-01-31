@@ -1,0 +1,70 @@
+perf{
+      testBuildingBlocks="false";
+      PrivacyPreservation="true";
+      microBench="false";
+      MLAlgorithm="nb";
+      runs_number ="1";
+      thread_number="1";
+      remoteClient="false";
+      Incremental="false";
+      OutputPath="/home/rania/CLionProjects/DAPPLE-2.0/TEST/MICRO/NB/";
+      scenarioName ="AdultNB-debug";
+      debug="true";
+      maxTrainSize="10";
+      maxTestSize="10";
+ }
+
+ # The dataset configuration parameters
+ dataset{
+     mainPath = "/home/rania/CLionProjects/DAPPLE-2.0/";
+     path="/home/rania/CLionProjects/DAPPLE-2.0/DATA/Datasets/Adult/";
+     clearPath= "/home/rania/CLionProjects/DAPPLE-2.0/DATA/Datasets/Adult/";
+     chunk_prefix="DO";
+     class_number="2";
+     dimension="15";
+     chunk_number="16";
+ }
+
+ # The vfdt algorithm parameters
+ vfdt{
+     delta="0.000001";
+     tau="1";
+     grace="50";
+     max_depth="8";
+     threshold_number="2";
+     maxNodes="45";
+ }
+
+ # DTPKC parameters
+ crypto{
+     deserialize="false";
+     pathSer="/home/rania/CLionProjects/DAPPLE-2.0/SER/";
+     keySize ="1024";
+     DTPKC_Err = "600";
+     ComputationalPrecision="1000";
+     useORE="false";
+     sendParaClient="true";
+     blindingSize="100";
+     encryptData="true";
+     delay="2";
+ }
+
+ # Naive Bayes parameters
+ nb{
+     LaplaceConstant="1";
+ }
+
+ #LR parameters
+
+ lr{
+    alpha="100";
+    LRTH="0.5";
+    batchSize="100";
+    epochs="1";
+ }
+
+ # Network parameters
+ network{
+     portS="5001";
+     serverIP="10.144.4.7";
+ }
